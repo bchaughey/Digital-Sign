@@ -1,0 +1,107 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+aside{
+  position: fixed;
+  height: 100%;
+  width: 400px;
+  display: inline-block;
+  background-color: #22005e;
+
+  }
+  
+  aside img{
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    padding-top: 40px;
+
+
+  }
+  html{
+    font-family: sans-serif;
+  }
+.navbar a li{
+  height: 10vh;
+  background-color: white;
+  text-align: right;
+  padding-right: 40px;
+  border-bottom: 1px solid #c6e3ff;
+  border: 1px solid rgba(255, 0, 0, 0);
+  line-height: 10vh;
+  font-size: 2em;
+ 
+}
+.navbar a li:hover{
+  position: relative;
+  border-bottom:1px solid rgba(198, 227, 255, 1);
+  
+}
+.navbar a:last-child{
+  border-bottom: none;
+}
+.navbar a:first-child{
+  border-top: none;
+}
+.navbar a{
+  text-decoration: none;
+  color: black;
+}
+
+main{
+  background-color: white;
+  border:1px solid red;
+  height: 200vh;
+  width: 100%;
+  display: inline-block;
+
+}
+main .slider{
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+}
+
+

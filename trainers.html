@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Slick Playground</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+  <link rel="stylesheet" media="@media screen and (orientation: landscape)" href="portrait.css" />
+  <style type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 50%;
+        margin: 0px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        color: black;
+    }
+  </style>
+</head>
+<body>
+
+<div class="menu">
+      <div class="logobox"><div class="helper"></div><img src="formalogo.png"></div>
+      <ul class="navbar">
+        <a href="index.html"><li>Home</li></a>
+        <a href="classes.html"><li>Classes</li></a>
+        <a href="schedules.html"><li>Class Schedules</li></a>
+        <a href="#"><li>Events</li></a>
+        <a href="trainers.html" id="active"><li>Personal Trainers</li></a>
+        <a href="videos.html"><li>Videos</li></a>  
+      </ul>
+  
+</div><!--
+  --><div class="container trainerpage">
+      <header>
+        <h1>Meet the Trainers!</h1>
+      </header>
+      <div class="trainer-bio">
+        <img src="yutaka.jpg" id="yutaka">
+        <h2>Yutaka</h2>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="trainer-bio altbio">
+        <img src="serenity.jpg" id="serenity">
+        <h2>Serenity</h2>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="trainer-bio">
+        <img src="maks.jpg" id="maks">
+        <h2>Maksym</h2>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.lorem</p>
+      </div>
+
+
+  
+    </div>
+  
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      
+      $(".center").slick({
+        dots: true,
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        touchMove: true,
+        adaptiveHeight: true,
+        centerPadding: '0px',
+        arrows: true,
+        autoplay: true,
+        autoplaySpeed: 20000,
+        pauseOnFocus: true,
+        pauseOnHover: true,
+        speed: 600,
+
+
+
+
+      });
+      
+    });
+  </script>
+
+</body>
+</html>
